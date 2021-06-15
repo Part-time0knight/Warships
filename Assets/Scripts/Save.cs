@@ -42,5 +42,8 @@ public static class Save
             ships[index].gameObject.SetActive(true);
         return ships[index];
     }
-    
+    public static Ship GetShip(int index)
+    {
+        return ships[index];
+    }
 }

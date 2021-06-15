@@ -12,7 +12,12 @@ public abstract class Ship : MonoBehaviour
     protected int width = 0;
     protected bool[,] grid;
     protected int saveIndex;
+    protected List<Cell> cells;
     protected abstract bool GridCheck(int posX, int posY);
+    public Ship()
+    {
+        cells = new List<Cell>();
+    }
     private void Awake()
     {
         grid = new bool[width, height];
@@ -32,10 +37,20 @@ public abstract class Ship : MonoBehaviour
                     pos.x = (-1f * width / 2f + CELL_SIZE) * CELL_SIZE + (iX * CELL_SIZE);
                     pos.y = (-1f * height / 2f + CELL_SIZE) * CELL_SIZE + (iY * CELL_SIZE);
                     Cell item = Instantiate(cell, gameObject.transform);
+                    cells.Add(item);
                     item.Position = new Vector2Int(iX, iY);
                     item.transform.localPosition = pos;
                 }
             }
     }
     public abstract void SaveShip();
+    public bool ShipIsFree()
+    {
+        for (int i = 0; i < cells.Count; i++)
+        {
+            if (cells[i].Free)
+                return true;
+        }
+        return false;
+    }
 }
