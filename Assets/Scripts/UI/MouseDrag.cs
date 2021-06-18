@@ -42,7 +42,7 @@ public class MouseDrag : MonoBehaviour
             mouse.y -= mouse.y % Ship.CELL_SIZE + Ship.CELL_SIZE / 2f;
             mouse.z = 0f;
             _tower.transform.position = mouse;
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonUp(0))
             {
                 StopDragTower();
             }
