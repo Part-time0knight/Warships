@@ -4,26 +4,27 @@ using UnityEngine;
 public class ShipBlade : Ship
 {
     public const int SAVE_INDEX = 0;
-    private const int HEIGHT = 18;
-    private const int WIDTH = 10;
+    [SerializeField] private int Height = 18;
+    [SerializeField] private int Width = 10;
+    [Header("¬едите логические неравенства, описывающие поле корабл€(Xupper - х должен быть не больше этого значени€ и тд.):")]
+    [SerializeField]
+    private Inequality[] inequality;
     public ShipBlade()
     {
-        height = HEIGHT;
-        width = WIDTH;
+        height = Height;
+        width = Width;
         saveIndex = SAVE_INDEX;
     }
     protected override bool GridCheck(int posX, int posY)
     {
         bool truth;
         List<bool> check = new List<bool>();
-        truth = posX > 3 && posX < 6 && posY > 1;
-        check.Add(truth);
-        truth = posX > 2 && posX < 7 && posY > 8 && posY < 13;
-        check.Add(truth);
-        truth = posX >= 0 && posX < 3 && posY > 1 && posY < 8 && !(posX == 0 && posY == 7);
-        check.Add(truth);
-        truth = posX < 10 && posX > 6 && posY > 1 && posY < 8 && !(posX == 9 && posY == 7);
-        check.Add(truth);
+        for (int i = 0; i < inequality.Length; i++)
+        {
+            truth = inequality[i].xUpper >= posX && inequality[i].xLower <= posX
+                && inequality[i].yUpper >= posY && inequality[i].yLower <= posY;
+            check.Add(truth);
+        }
         for (int i = 0; i < check.Count; i++)
             if (check[i])
                 return true;
