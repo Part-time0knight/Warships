@@ -15,7 +15,6 @@ public class EndBuild : MonoBehaviour
             if (ship && ship.gameObject.activeInHierarchy)
                 end = true;
         }
-        Debug.Log(ship);
         if (end && ship && !ship.ShipIsFree())
             SceneController.sceneController.PreviousScene();
         else

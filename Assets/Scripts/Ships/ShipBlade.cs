@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 public class ShipBlade : Ship
 {
-    public const int SAVE_INDEX = 0;
+    [SerializeField] private int _saveIndex;
     [SerializeField] private int Height = 18;
     [SerializeField] private int Width = 10;
     [Header("¬едите логические неравенства, описывающие поле корабл€(Xupper - х должен быть не больше этого значени€ и тд.):")]
     [SerializeField]
     private Inequality[] inequality;
-    public ShipBlade()
+
+    protected override void InitShip()
     {
         height = Height;
         width = Width;
-        saveIndex = SAVE_INDEX;
+        saveIndex = _saveIndex;
     }
     protected override bool GridCheck(int posX, int posY)
     {

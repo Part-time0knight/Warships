@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 public class ShipChibi : Ship
 {
-    public const int SAVE_INDEX = 1;
-    private const int HEIGHT = 18;
-    private const int WIDTH = 10;
-    public ShipChibi()
+    [SerializeField] private int _saveIndex;
+    [SerializeField] private int Height = 18;
+    [SerializeField] private int Width = 10;
+    [Header("¬едите логические неравенства, описывающие поле корабл€(Xupper - х должен быть не больше этого значени€ и тд.):")]
+    [SerializeField]
+    private Inequality[] inequality;
+    protected override void InitShip()
     {
-        height = HEIGHT;
-        width = WIDTH;
-        saveIndex = SAVE_INDEX;
+        height = Height;
+        width = Width;
+        saveIndex = _saveIndex;
     }
     protected override bool GridCheck(int posX, int posY)
     {
-        bool truth;
+         bool truth;
         List<bool> check = new List<bool>();
-        truth = posX > 3 && posX < 6;
-        check.Add(truth);
-        truth = posX > 2 && posX < 7 && posY > 0 && posY < 15;
-        check.Add(truth);
-        truth = posX > 0 && posX < 9 && posY == 4;
-        check.Add(truth);
-        truth = ( posX == 1 || posX == 8 ) && posY > 2 && posY < 6;
-        check.Add(truth);
+        for (int i = 0; i < inequality.Length; i++)
+        {
+            truth = inequality[i].xUpper >= posX && inequality[i].xLower <= posX
+                && inequality[i].yUpper >= posY && inequality[i].yLower <= posY;
+            check.Add(truth);
+        }
         for (int i = 0; i < check.Count; i++)
             if (check[i])
                 return true;

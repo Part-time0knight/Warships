@@ -20,6 +20,7 @@ public abstract class Ship : MonoBehaviour
     }
     private void Awake()
     {
+        InitShip();
         grid = new bool[width, height];
         for (int iX = 0; iX < width; iX++)
             for (int iY = 0; iY < height; iY++)
@@ -43,6 +44,7 @@ public abstract class Ship : MonoBehaviour
                 }
             }
     }
+    protected abstract void InitShip();
     public abstract void SaveShip();
     public bool ShipIsFree()
     {

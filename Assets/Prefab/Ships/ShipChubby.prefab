@@ -97,3 +97,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cell: {fileID: 8103709918535566230, guid: 3d5745204565ce74e94b76af85b2732b, type: 3}
+  _saveIndex: 1
+  Height: 18
+  Width: 10
+  inequality:
+  - xUpper: 5
+    xLower: 4
+    yUpper: 17
+    yLower: 0
+  - xUpper: 6
+    xLower: 3
+    yUpper: 14
+    yLower: 1
+  - xUpper: 7
+    xLower: 2
+    yUpper: 12
+    yLower: 2
+  - xUpper: 8
+    xLower: 1
+    yUpper: 5
+    yLower: 3
