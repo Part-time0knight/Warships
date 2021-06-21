@@ -1,11 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public static class Save
 {
-    public const int SHIPS_NUMBER = 2;
-    private static Ship[] ships;
+    private static Dictionary<int, Ship> ships;
     private static int selectedShip;
     public static int SelectedShip
     {
@@ -15,32 +12,32 @@ public static class Save
         }
         set
         {
-            if (value < SHIPS_NUMBER)
-                selectedShip = value;
+            selectedShip = value;
         }
     }
     static Save()
     {
-        ships = new Ship[SHIPS_NUMBER];
+        ships = new Dictionary<int, Ship>();
     }
     public static void HideShip()
     {
-        for (int i = 0; i < SHIPS_NUMBER; i++)
-            if (ships[i])
-            {
-                ships[i].gameObject.SetActive(false);
-            }
+        if (ships.ContainsKey(selectedShip))
+            ships[selectedShip].gameObject.SetActive(false);
     }
-    public static void SaveShip(Ship ship)
+    public static void SaveShip(Ship ship, int ind)
     {
-        ships[ship.SaveIndex] = ship;
-        Object.DontDestroyOnLoad(ship);
+        ships.Add(ind, ship);
+        selectedShip = ind;
     }
     public static Ship LoadShip(int index)
     {
-        if (ships[index])
+        selectedShip = index;
+        if (ships.ContainsKey(selectedShip))
+        {
             ships[index].gameObject.SetActive(true);
-        return ships[index];
+            return ships[index];
+        }
+        return null;
     }
     public static Ship GetShip(int index)
     {

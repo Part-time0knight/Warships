@@ -5,11 +5,11 @@ using UnityEngine.EventSystems;
 
 public class TowerSpawner : MonoBehaviour, IPointerUpHandler
 {
-    [SerializeField] private DragTower tower;
+    [SerializeField] private TowerController tower;
     public void TowerGet()
     {
-        DragTower spawn = Instantiate(tower);
-        MouseDrag.mouseDrag.StartDragTower(spawn);
+        TowerController spawn = Instantiate(tower);
+        MouseDrag.mouseDrag.StartDrag(spawn);
     }
     public void OnPointerUp(PointerEventData eventData)
     {

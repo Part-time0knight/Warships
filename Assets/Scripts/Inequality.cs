@@ -1,10 +1,8 @@
 using System.Collections;
+using UnityEngine;
 [System.Serializable]
-struct Inequality
+public struct Inequality
 {
-    public int xUpper;
-    public int xLower;
-    public int yUpper;
-    public int yLower;
-
+    public Vector2Int Upper;
+    public Vector2Int Lower;
 }

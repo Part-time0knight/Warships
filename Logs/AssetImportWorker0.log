@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19041.985; Version 2004; 64bit' Language: 'ru' Physical Memory: 32686 MB
+OS: 'Windows 10 Enterprise; OS build 19041.1052; Version 2004; 64bit' Language: 'ru' Physical Memory: 32686 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/repositories/Warships
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54803
+51088
 Successfully changed project path to: E:/repositories/Warships
 E:/repositories/Warships
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 436.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 191.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path E:/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,16 +35,2208 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002773 seconds.
+Registered in 0.002050 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 184.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 184.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.476 seconds
+- Completed reload, in  3.260 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004920 seconds.
+Registered in 0.004069 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 206.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3842.
+Total: 4.250200 ms (FindLiveObjects: 0.509500 ms CreateObjectMapping: 0.431200 ms MarkObjects: 3.127000 ms  DeleteObjects: 0.180600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b605dcc4e9d746105b9baa8c90da0ac') in 0.102388 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.5 MB.
+System memory in use after: 61.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3842.
+Total: 4.429100 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.199200 ms MarkObjects: 3.717500 ms  DeleteObjects: 0.142300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9088.815511 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb5c484b70c04ab99c4f7096e4099a2') in 0.003738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.397638 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f9f8477fa174328b8e448352643420') in 0.002311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.220756 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6010ae8a8b6a0643c2fabced8f7fc8') in 0.002197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.085804 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09cdc5228ba87b0d53b728afef88f7c') in 0.002358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.455666 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21fc7514ef8eca351794df03f9183dd') in 0.002253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.032115 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79b75eed44e792036ac8ff908e456ae') in 0.002287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.206758 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94ab1fdfa1964324ebacb4d0d4fdba0') in 0.002210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 780.831710 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00419454a44fcd0a1aee01d4c801e0f') in 0.002618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.046100 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ded58b023f6aa6ba6d8f09590d720a7') in 0.002308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.479588 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca6c5700d38eae0f9afd3e0982c889') in 0.002200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.741060 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c65e4f7d1eb56860a2ee4a6a846a336') in 0.002306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.793379 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb2249542b8cb405184816c8f8f50e') in 0.002396 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004397 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 3.644300 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.208100 ms MarkObjects: 2.903500 ms  DeleteObjects: 0.174500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004422 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3850.
+Total: 3.607200 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.197300 ms MarkObjects: 2.898600 ms  DeleteObjects: 0.156700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1812.990263 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042e5d81317146aa0f20fce4e9b97598') in 0.008873 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3854.
+Total: 3.582400 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.203500 ms MarkObjects: 2.882000 ms  DeleteObjects: 0.146300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 3.588400 ms (FindLiveObjects: 0.340300 ms CreateObjectMapping: 0.199100 ms MarkObjects: 2.897900 ms  DeleteObjects: 0.149100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.808423 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63063690aad189da211a3f164b73e069') in 0.008323 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004145 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 3.611200 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.199400 ms MarkObjects: 2.922300 ms  DeleteObjects: 0.152100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.454 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3866.
+Total: 2.942900 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.162000 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.127600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.324127 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25119580434427223a091a5fef79275e') in 0.008575 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004464 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3870.
+Total: 4.925600 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.295500 ms MarkObjects: 4.059300 ms  DeleteObjects: 0.232800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004531 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 3.004600 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.416100 ms  DeleteObjects: 0.134000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004634 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.647 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3878.
+Total: 3.020300 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.162100 ms MarkObjects: 2.386800 ms  DeleteObjects: 0.132800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.597311 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e02a40b9c221c8bddd1c20fb919acf') in 0.006738 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 3.586100 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.203100 ms MarkObjects: 2.875500 ms  DeleteObjects: 0.156400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004663 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 3.640000 ms (FindLiveObjects: 0.349200 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.935500 ms  DeleteObjects: 0.151500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.934502 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3978d2aeb7dfd46fbdf85d991e030d6e') in 0.008168 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 3.104900 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.174500 ms MarkObjects: 2.467600 ms  DeleteObjects: 0.145500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 5.117800 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.206200 ms MarkObjects: 4.307200 ms  DeleteObjects: 0.251700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.705186 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6520e1e9fcf340a1a8e36b549aa128f') in 0.008169 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004607 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3898.
+Total: 2.987400 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.160600 ms MarkObjects: 2.385700 ms  DeleteObjects: 0.131200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.917365 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28b9a6a1690cc444f3a48dd411b47b') in 0.006892 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004457 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3902.
+Total: 3.779100 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.204900 ms MarkObjects: 3.040600 ms  DeleteObjects: 0.163200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.919761 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002640 seconds  code(4) message(Build asset version error: assets/scripts/ships/ship.cs in SourceAssetDB has modification time of '2021-06-21T19:27:41.2841335Z' while content on disk has modification time of '2021-06-21T19:29:19.7972716Z')
+  ERROR: Build asset version error: assets/scripts/ships/ship.cs in SourceAssetDB has modification time of '2021-06-21T19:27:41.2841335Z' while content on disk has modification time of '2021-06-21T19:29:19.7972716Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 4.382900 ms (FindLiveObjects: 0.347500 ms CreateObjectMapping: 0.328100 ms MarkObjects: 3.576600 ms  DeleteObjects: 0.129200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.110388 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fe205b0447ca9c291b956096992dee') in 0.008902 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.748 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 3.656200 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.198500 ms MarkObjects: 2.951700 ms  DeleteObjects: 0.155900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.346901 seconds.
+  path: Assets/Scripts/Ships/Ship.cs
+  artifactKey: Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/Ship.cs using Guid(840b19565a0853a4a86bfaab55e9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4186781a5c20f365a9cf67337b65a275') in 0.008253 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3914.
+Total: 3.082400 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.166500 ms MarkObjects: 2.466700 ms  DeleteObjects: 0.129800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.396096 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22899ddb09f4b0128f4633becb0947f') in 0.163428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.818151 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec083be498cc9e126958fe320a458852') in 0.025030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.167692 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef7108d51fa5f7077fafec3f337020a') in 0.014290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.678720 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2979839e54a83c589acad274caf6d3a9') in 0.012076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.777670 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb2f04a8947e4a334817c8bb938632') in 0.012448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.307188 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6873a6cb24e849729ebced80ef62147') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.883274 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bde26fffb5526f82f06b469b01dc5a') in 0.015333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.233211 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2666799d52404228af4ab08df0759') in 0.012424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.831466 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d9a6454d1e5092e8ff2cc7bcc2df35') in 0.012013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.577700 seconds.
+  path: Assets/Prefab/towers/Weapon/RocketPit.prefab
+  artifactKey: Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/RocketPit.prefab using Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68743125a1e0bb9b46fe6cb1499d487f') in 0.011976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.654359 seconds.
+  path: Assets/Prefab/towers/Weapon/RocketPit.prefab
+  artifactKey: Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/RocketPit.prefab using Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce5f029a88f9027695ab9bda9f54349') in 0.012338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.619501 seconds.
+  path: Assets/Prefab/towers/Weapon/RocketPit.prefab
+  artifactKey: Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/RocketPit.prefab using Guid(0d5a7539807ac1948ad9cd088037de9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f2e189bf319a563b6a1bf4718ce099') in 0.014129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.906905 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974734dc67d85b68434a73c7af8a20d1') in 0.012189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.426312 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dbfa1b6e99bd3b909192b074f6170d') in 0.012184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.440083 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f61b037962f91e02b4e9026225adf44') in 0.012359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613286 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eebe65adb40dc9dbd550a691f5850a') in 0.012036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.804185 seconds.
+  path: Assets/Prefab/UI/Buttons/Towers/Weapon/Button BFG.prefab
+  artifactKey: Guid(2fcf69348c692bc40bbb4ad84f7db4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Buttons/Towers/Weapon/Button BFG.prefab using Guid(2fcf69348c692bc40bbb4ad84f7db4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810bb03ee28071ac7a4503890f107ee1') in 0.039602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.882392 seconds.
+  path: Assets/Prefab/UI/Scrolls/Content/Content Weapon Towers.prefab
+  artifactKey: Guid(0aa4a72323626aa4c94e14efd450574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Scrolls/Content/Content Weapon Towers.prefab using Guid(0aa4a72323626aa4c94e14efd450574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b35582558350b6ac09978a178f9a8') in 0.035673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.160284 seconds.
+  path: Assets/Prefab/UI/Buttons/Towers/Weapon/Button Laser.prefab
+  artifactKey: Guid(d3dda2f32e44e4c4297e7e64308c9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Buttons/Towers/Weapon/Button Laser.prefab using Guid(d3dda2f32e44e4c4297e7e64308c9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4776b23d3de9fe9db0da405a2d61891b') in 0.007436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.531915 seconds.
+  path: Assets/Prefab/UI/Buttons/Towers/Weapon/Button Rocket Launcher .prefab
+  artifactKey: Guid(9e569b669097e3a46a3469f8a7f92c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Buttons/Towers/Weapon/Button Rocket Launcher .prefab using Guid(9e569b669097e3a46a3469f8a7f92c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c8b3f4492b70534b1e8dfe6c2f032') in 0.023965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.551270 seconds.
+  path: Assets/Prefab/UI/Buttons/Towers/Weapon/Button RocketPit.prefab
+  artifactKey: Guid(bbdc4b820fa2ae1429d516a975a5d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Buttons/Towers/Weapon/Button RocketPit.prefab using Guid(bbdc4b820fa2ae1429d516a975a5d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec7dc44abb2a6ac7062c98914962e3e') in 0.009905 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004588 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3927.
+Total: 4.048800 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.376000 ms MarkObjects: 3.074600 ms  DeleteObjects: 0.155800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.829822 seconds.
+  path: Assets/Prefab/UI/Buttons/Towers/Weapon/Button Laser.prefab
+  artifactKey: Guid(d3dda2f32e44e4c4297e7e64308c9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UI/Buttons/Towers/Weapon/Button Laser.prefab using Guid(d3dda2f32e44e4c4297e7e64308c9d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b86def9bc48c3bad21a9a7fe27e3dd') in 0.078154 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.856 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3931.
+Total: 3.634800 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.939400 ms  DeleteObjects: 0.154900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.464154 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08da3e2f213ee02f6ec1b841798ad9e6') in 0.105498 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3936.
+Total: 5.149800 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.267300 ms MarkObjects: 4.169400 ms  DeleteObjects: 0.267500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.024146 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0395dd2fac3a152b60421c309d9ddc49') in 0.103065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.911474 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bf00c17da585d933cc8f3501fd5d27') in 0.014015 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3941.
+Total: 3.722500 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.201500 ms MarkObjects: 3.004900 ms  DeleteObjects: 0.153200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.124339 seconds.
+  path: Assets/Prefab/towers/Weapon/Tower Laser.prefab
+  artifactKey: Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Tower Laser.prefab using Guid(3447dae47ab056547863ca3860a39cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1f77e49452946a45320d12c82a3bb5') in 0.113718 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3946.
+Total: 3.855100 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.210400 ms MarkObjects: 3.098800 ms  DeleteObjects: 0.151100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.745834 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c007f07d22c24aa04900d016269c26b') in 0.098137 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3951.
+Total: 3.139100 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.168700 ms MarkObjects: 2.503900 ms  DeleteObjects: 0.149400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.721034 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0220758ce7b93d093f16936e85e9493') in 0.075962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.106428 seconds.
+  path: Assets/Prefab/towers/Weapon/BFG.prefab
+  artifactKey: Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/BFG.prefab using Guid(11bd26a5adc635744b38e3a897f174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5eefc0375f1b2d6c8ae8299de9a566c') in 0.011365 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3956.
+Total: 3.737800 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.202300 ms MarkObjects: 3.026000 ms  DeleteObjects: 0.152700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.758140 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd005b3b98d3477e2d9fb2d3b70737e6') in 0.102297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.952929 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc3ccca800df7d0e4a3a726a1ddf9ad') in 0.014380 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3957.
+Total: 4.206800 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.201300 ms MarkObjects: 3.513300 ms  DeleteObjects: 0.138000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.072579 seconds.
+  path: Assets/Prefab/towers/Weapon/Rocket Launcher .prefab
+  artifactKey: Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/towers/Weapon/Rocket Launcher .prefab using Guid(a3d6581fb5002574086d6945d84f543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903a92c7f6d403f8ee86db1229f7a0da') in 0.016416 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004258 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3961.
+Total: 3.710300 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.200300 ms MarkObjects: 2.967700 ms  DeleteObjects: 0.158800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.880274 seconds.
+  path: Assets/Scripts/Save.cs
+  artifactKey: Guid(22c50ecca448097488b0a1bb9dae52c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Save.cs using Guid(22c50ecca448097488b0a1bb9dae52c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95b3119c9171977ba648fd3513f02bc') in 0.011241 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004503 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3965.
+Total: 3.729100 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.202500 ms MarkObjects: 2.990000 ms  DeleteObjects: 0.160200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.280403 seconds.
+  path: Assets/Scripts/Save.cs
+  artifactKey: Guid(22c50ecca448097488b0a1bb9dae52c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Save.cs using Guid(22c50ecca448097488b0a1bb9dae52c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c5229ce82ca0cd633935bdcf73f1a2') in 0.008188 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004419 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3969.
+Total: 3.764000 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.202100 ms MarkObjects: 3.037900 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3973.
+Total: 3.817600 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.216800 ms MarkObjects: 3.038000 ms  DeleteObjects: 0.159200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3977.
+Total: 3.740000 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.203200 ms MarkObjects: 3.018600 ms  DeleteObjects: 0.155500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004442 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3981.
+Total: 3.679500 ms (FindLiveObjects: 0.358200 ms CreateObjectMapping: 0.207100 ms MarkObjects: 2.955600 ms  DeleteObjects: 0.156500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3985.
+Total: 3.763300 ms (FindLiveObjects: 0.361300 ms CreateObjectMapping: 0.200700 ms MarkObjects: 3.051000 ms  DeleteObjects: 0.148600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3989.
+Total: 3.750600 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.204900 ms MarkObjects: 3.022900 ms  DeleteObjects: 0.158600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2623.991254 seconds.
+  path: Assets/Scenes/Hangar.unity
+  artifactKey: Guid(48810dd80f7006640a569b4c3dda1b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hangar.unity using Guid(48810dd80f7006640a569b4c3dda1b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18566af57109fd6144dce13ec801714') in 0.023333 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004465 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3993.
+Total: 3.671200 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.957300 ms  DeleteObjects: 0.147000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3997.
+Total: 3.773600 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.202800 ms MarkObjects: 3.034700 ms  DeleteObjects: 0.156100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.780430 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d259bf36cbb4d8a0d388df6238d320') in 0.101612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.979914 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6b2002c33897acb930d32da4f97052') in 0.011831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.853453 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edf705135d625eec6da6cc182361046') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.128086 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0fbce18d965a2b878b71d72f157eb5') in 0.012567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.465201 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9c6584bb91ee4a6f48481de07bd39e') in 0.015597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.101189 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5c3497e0e9cf44cf6d751d859aba20') in 0.015948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.673598 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e4d256b94b8194bed0d5f8dc3adeca') in 0.011740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.621332 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c714424f6d7b35a786ed3b5958ff2c') in 0.012245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.423485 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d846c630ad92805143f657242912ad') in 0.021601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.839022 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ec085878a43691dc9576cf258b2788') in 0.013589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.854030 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f8a08294b9c881bf9bebeb764f911b') in 0.013239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.393522 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8727fd9326cd45c6176ea15815691a5e') in 0.018167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.415405 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ed01ff4723f4a1d026adf7b3a533da') in 0.012047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.761064 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f81a5ed02a9289d7fe191349a30e55d') in 0.012141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.615474 seconds.
+  path: Assets/Scenes/TowerShop.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TowerShop.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24317bb061c91d45b21a1529b36daa9a') in 0.003155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.488874 seconds.
+  path: Assets/Scripts/Ships/ShipSpawn.cs
+  artifactKey: Guid(80a9897533ce6ab49ad91fe8fa3767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/ShipSpawn.cs using Guid(80a9897533ce6ab49ad91fe8fa3767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2aaa5fc949527d2bdf137cf79ce0c4') in 0.002401 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4002.
+Total: 3.771600 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.201500 ms MarkObjects: 3.046900 ms  DeleteObjects: 0.152800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.767649 seconds.
+  path: Assets/Scripts/Ships/ShipSpawn.cs
+  artifactKey: Guid(80a9897533ce6ab49ad91fe8fa3767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/ShipSpawn.cs using Guid(80a9897533ce6ab49ad91fe8fa3767a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85976b659fa43e925b0825d3afb50ab') in 0.008351 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004228 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 3.690500 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.208200 ms MarkObjects: 2.956400 ms  DeleteObjects: 0.152300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004518 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.836 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4010.
+Total: 3.682100 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.199800 ms MarkObjects: 2.969100 ms  DeleteObjects: 0.154500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.952285 seconds.
+  path: Assets/Scenes/TowerShop.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TowerShop.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185f657fbee752536e158524a477fe5') in 0.029270 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4014.
+Total: 4.881800 ms (FindLiveObjects: 0.632200 ms CreateObjectMapping: 0.432300 ms MarkObjects: 3.665800 ms  DeleteObjects: 0.148700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.373488 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c033dd3002c1d7fed081ece8de85b806') in 0.102145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.016342 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0615c6fe1928e44e4c826b494231841f') in 0.011849 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 3.748400 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.213200 ms MarkObjects: 3.002100 ms  DeleteObjects: 0.151500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004360 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4023.
+Total: 6.247400 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.206100 ms MarkObjects: 5.383200 ms  DeleteObjects: 0.280100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004315 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4027.
+Total: 4.180300 ms (FindLiveObjects: 0.633300 ms CreateObjectMapping: 0.422600 ms MarkObjects: 2.969100 ms  DeleteObjects: 0.152600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004489 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4031.
+Total: 3.779000 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.204500 ms MarkObjects: 3.048500 ms  DeleteObjects: 0.154200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.941172 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27e7f1e061f9fa5a24b27d78e552eab') in 0.114506 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005317 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4036.
+Total: 3.799300 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.202800 ms MarkObjects: 3.070300 ms  DeleteObjects: 0.149900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.649261 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324fd81f08fa7f7e36e9d73f9f3b8cd') in 0.100524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.056585 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6bc76f4d83b1d0247c78ab8692e931') in 0.011988 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004514 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4041.
+Total: 3.713900 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.207600 ms MarkObjects: 2.994300 ms  DeleteObjects: 0.152000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.290521 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb91b0b7f973a1fcdba00fad6c56965') in 0.106738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.130456 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4088ec381f3854dc64aaaa1bae050500') in 0.012256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.325294 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3df3a34a8a722aa3c1ec9198ccd8b62') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651641 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566d4f53c882e9550231eba34c6e800d') in 0.011646 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4046.
+Total: 3.058700 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.162900 ms MarkObjects: 2.443000 ms  DeleteObjects: 0.123300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.443935 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cc4945cb532960694a2307a0bf20ed') in 0.105624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.513176 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8048655bb764f55d1264759963c58cc1') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.639793 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72776550ec7303f253fb3d513215695') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.248936 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a0481cd1b671463ff28a2c45ff671') in 0.017055 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4051.
+Total: 3.725800 ms (FindLiveObjects: 0.365500 ms CreateObjectMapping: 0.202600 ms MarkObjects: 3.005800 ms  DeleteObjects: 0.150100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.741572 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03afb5295ed9df3418ce73ccd259c5b') in 0.104904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.830985 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702c25549797380b3f77c96646e11586') in 0.016041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.122157 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45e712cdfb878a3247fad2fbf9d6618') in 0.016125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.114480 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e826f78477dcd7999825da7b6a2978') in 0.015187 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004476 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4056.
+Total: 3.168500 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.547400 ms  DeleteObjects: 0.130100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.036025 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f8f6cf5bb7a1065ad98b3b8fd8e9a') in 0.095647 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004519 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4061.
+Total: 3.125500 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.164100 ms MarkObjects: 2.497900 ms  DeleteObjects: 0.130600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.797648 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4435bc88ba312ccf5eedf9999a587c') in 0.096785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.244408 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4952424d8e91338fc1ee86ca27fa9aa4') in 0.011063 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 4.388000 ms (FindLiveObjects: 0.645800 ms CreateObjectMapping: 0.427400 ms MarkObjects: 3.160200 ms  DeleteObjects: 0.151900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.889543 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6b5139cbe6f4e48fe36b17f171ce70') in 0.096664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.962921 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad155c14ee8b45f41e3e18a6b42f22c0') in 0.012145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.054525 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9088fd7a928113fa9c258940df22484') in 0.012682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.225091 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3cbffc6b7cae4e9aacba1028bd3712') in 0.012341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.666506 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0762ee799e5892e78418b07a5bf2490f') in 0.011765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.228081 seconds.
+  path: Assets/Prefab/Ships/ShipChubby.prefab
+  artifactKey: Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipChubby.prefab using Guid(778332b6a14ff114794998864bc54e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8ea3b4faa5c94ef72079ecc7247e27') in 0.013274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.602066 seconds.
+  path: Assets/Scripts/Ships/ShipGrid.cs
+  artifactKey: Guid(eaf8d38c21a27894988227a2a639cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ships/ShipGrid.cs using Guid(eaf8d38c21a27894988227a2a639cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc340200340319c204c966cd3239be90') in 0.003324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.781993 seconds.
+  path: Assets/Scripts/Towers/ITower.cs
+  artifactKey: Guid(94168be18ca8ad4449fad1973e557441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Towers/ITower.cs using Guid(94168be18ca8ad4449fad1973e557441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e825ffb7961ff29df8e900943ae73159') in 0.002443 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004173 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4070.
+Total: 3.829700 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.201800 ms MarkObjects: 3.076000 ms  DeleteObjects: 0.171100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4074.
+Total: 3.791200 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.202500 ms MarkObjects: 3.055700 ms  DeleteObjects: 0.153000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.911683 seconds.
+  path: Assets/Scripts/Towers/TowerController.cs
+  artifactKey: Guid(a233d92c3de31d34d8ed4c5939772fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Towers/TowerController.cs using Guid(a233d92c3de31d34d8ed4c5939772fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeea2ef1bed6e8364883e1b863ad4ea9') in 0.008400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004572 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4077.
+Total: 3.880500 ms (FindLiveObjects: 0.390600 ms CreateObjectMapping: 0.208500 ms MarkObjects: 3.115400 ms  DeleteObjects: 0.164100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.970846 seconds.
+  path: Assets/Scripts/UI/MouseDrag.cs
+  artifactKey: Guid(d6ce47513498c5148b6d182e3e9ff7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/MouseDrag.cs using Guid(d6ce47513498c5148b6d182e3e9ff7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63501c7039b7a8aa95058c58abd5224a') in 0.008404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.837392 seconds.
+  path: Assets/Scripts/UI/EndBuild.cs
+  artifactKey: Guid(f74d73548d0ebde4184835f49e3b882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/EndBuild.cs using Guid(f74d73548d0ebde4184835f49e3b882b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f36e0941820d1d6917ef0b6a0541452') in 0.002338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.966143 seconds.
+  path: Assets/Scripts/UI/SaveButton.cs
+  artifactKey: Guid(b108fcd826387614fa94556d60ee8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SaveButton.cs using Guid(b108fcd826387614fa94556d60ee8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b32aece268c833843dc6b4eaa239a2') in 0.002968 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4080.
+Total: 3.750000 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.204400 ms MarkObjects: 3.008100 ms  DeleteObjects: 0.159000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.965962 seconds.
+  path: Assets/Scripts/UI/ScrollView.cs
+  artifactKey: Guid(85d177308de124b4abaa8e905de32fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/ScrollView.cs using Guid(85d177308de124b4abaa8e905de32fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3ff467496a6e2ad66b45629adee758') in 0.008352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.909168 seconds.
+  path: Assets/Scripts/UI/SelectButton.cs
+  artifactKey: Guid(4d49d68f614be184ea08c320ce8705a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/SelectButton.cs using Guid(4d49d68f614be184ea08c320ce8705a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12a6aa560ca10d2e09cee3a93eabaa') in 0.002372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.890895 seconds.
+  path: Assets/Scripts/UI/TowerSpawner.cs
+  artifactKey: Guid(c5152690c88d4044ab69b26276c78c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/TowerSpawner.cs using Guid(c5152690c88d4044ab69b26276c78c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f438747584797f0bbec68fa117412dc') in 0.002470 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4084.
+Total: 3.869500 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.205100 ms MarkObjects: 3.130100 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.287819 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c814dcb33daab840161d6e4b854b05f') in 0.099572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.208448 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588cd25fe6f77e007640457bd7e766a5') in 0.012253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.927493 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84a8186f144461f8fb80bd34f3fe54f') in 0.011820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.836975 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaf6a929d61ed04b97e9f41547d8c86') in 0.011728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.363116 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711399c5d1cf942c444993b2c94d9062') in 0.012286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.757837 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823b35887f6fa2f7479200dc86849f44') in 0.012143 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004520 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.4 MB.
+System memory in use after: 133.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4089.
+Total: 3.719700 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.207700 ms MarkObjects: 2.995400 ms  DeleteObjects: 0.150400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.418614 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e61105425ab09560ae24b65f9a9025') in 0.104841 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4094.
+Total: 7.231200 ms (FindLiveObjects: 0.656200 ms CreateObjectMapping: 0.440700 ms MarkObjects: 5.844400 ms  DeleteObjects: 0.286600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.752286 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de751c97403fcffc58cd7603d9887942') in 0.107134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.189220 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed0f49e78657dbec0f2518d96c94881') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.496168 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60b26bf4c21cac429e500ed927f6873') in 0.012038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4099.
+Total: 3.784100 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.204100 ms MarkObjects: 3.038100 ms  DeleteObjects: 0.151600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.639580 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e5a456445e0e00a7eca54272bdda32') in 0.098429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211658 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26a685455a0d19bf58761b8b8475136') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.109164 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c48b62dc2ebfcdeee7dc05b2bfe1a03') in 0.011029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873184 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573ff708baf9d3688d73a18bac263d7b') in 0.012323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.765844 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ed5f016f7ea781fc60221fc7237186') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.733235 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd162f9962041b1afe5e0fe8bc867c703') in 0.012550 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004417 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4104.
+Total: 3.823900 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.206000 ms MarkObjects: 3.089500 ms  DeleteObjects: 0.152800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.020392 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f781eca10b17ef8c3c574de8f8d6e0b') in 0.097744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579992 seconds.
+  path: Assets/Prefab/Ships/ShipBlade.prefab
+  artifactKey: Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Ships/ShipBlade.prefab using Guid(50ae84eaf89f2914c8157c0d0b92e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcb166ea2d7f59ffa224def13af9f1f') in 0.015922 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4109.
+Total: 3.794200 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.028500 ms  DeleteObjects: 0.158100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4113.
+Total: 3.770500 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.204300 ms MarkObjects: 3.006600 ms  DeleteObjects: 0.160400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004461 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\repositories\Warships\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 3.143800 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.164000 ms MarkObjects: 2.509100 ms  DeleteObjects: 0.126500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 4.721100 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.202100 ms MarkObjects: 3.890600 ms  DeleteObjects: 0.173700 ms)
+

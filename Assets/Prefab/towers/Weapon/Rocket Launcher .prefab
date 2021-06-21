@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5928892672332309949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.25, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5928892672487950603}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5928892672487950603}
-  - component: {fileID: 5465879373551785714}
+  - component: {fileID: 5536010118721110522}
   m_Layer: 0
   m_Name: 'Rocket Launcher '
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5465879373551785714
+--- !u!114 &5536010118721110522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,8 +124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5928892672487950602}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0abb18ea66ca32e4f8fe848f22d71a95, type: 3}
+  m_Script: {fileID: 11500000, guid: a233d92c3de31d34d8ed4c5939772fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   size: {x: 2, y: 2}
-  Cost: 0
