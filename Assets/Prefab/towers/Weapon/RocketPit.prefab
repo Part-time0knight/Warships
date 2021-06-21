@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7505425380799884907}
-  - component: {fileID: 445736203104205094}
+  - component: {fileID: 4041428234963076797}
   m_Layer: 0
   m_Name: RocketPit
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &445736203104205094
+--- !u!114 &4041428234963076797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,8 +124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7505425380799884906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0abb18ea66ca32e4f8fe848f22d71a95, type: 3}
+  m_Script: {fileID: 11500000, guid: a233d92c3de31d34d8ed4c5939772fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   size: {x: 1, y: 1}
-  Cost: 0

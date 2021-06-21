@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5152690c88d4044ab69b26276c78c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 816344623711359436, guid: c8ee0d4a7b5ca4e4592d4d9c584f7e9b, type: 3}
+  tower: {fileID: 9024069632832555494, guid: 357a9dfcf232d4a4a868fc7dba37d73e, type: 3}
 --- !u!114 &8258050404880303594
 MonoBehaviour:
   m_ObjectHideFlags: 0

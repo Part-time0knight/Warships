@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EndBuild : MonoBehaviour
@@ -9,13 +7,11 @@ public class EndBuild : MonoBehaviour
     {
         Ship ship = null;
         bool end = false;
-        for (int i = 0; i < Save.SHIPS_NUMBER && !end; i++)
-        {
-            ship = Save.GetShip(i);
-            if (ship && ship.gameObject.activeInHierarchy)
-                end = true;
-        }
-        if (end && ship && !ship.ShipIsFree())
+
+        ship = Save.GetShip(Save.SelectedShip);
+        if (ship && ship.gameObject.activeInHierarchy)
+            end = true;
+        if (end && ship && !ship.IsFreeSpace())
             SceneController.sceneController.PreviousScene();
         else
             ShowMessage();

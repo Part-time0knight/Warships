@@ -1,14 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 public class MouseDrag : MonoBehaviour
 {
-    private static MouseDrag _mouseDrag;
-    private DragTower _tower;
-    private Camera mainCamera;
-    public DragTower tower { get { return _tower; } }
     public static MouseDrag mouseDrag { get { return _mouseDrag; } }
+    private static MouseDrag _mouseDrag;
+    private Camera mainCamera;
+    private Vector2 mouse = Vector2.zero;
+    private TowerController tower;
+
+    public TowerController Tower { get { return tower; } }
+    public Ship SelectShip { get; set; }
     private void Awake()
     {
         if (!_mouseDrag)
@@ -17,20 +17,48 @@ public class MouseDrag : MonoBehaviour
             Destroy(gameObject);
         mainCamera = Camera.main;
     }
-    public void StartDragTower(DragTower tower)
+
+    private void LateUpdate()
     {
-        _tower = tower;
+        if (tower != null)
+        {
+            UpdateMousePosition();
+            tower.Drag(mouse);
+            if (SelectShip)
+            {
+                Vector2Int size = tower.GetSize();
+                SelectShip.EnterCell(mouse.x, mouse.y, size.x, size.y);
+                
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                StopDrag();
+            }
+        }
+    }
+    private void UpdateMousePosition()
+    {
+        Vector3 mouseV3 = Input.mousePosition;
+        mouseV3.z = mainCamera.nearClipPlane;
+        mouseV3 = mainCamera.ScreenToWorldPoint(mouseV3);
+        mouse.x = mouseV3.x;
+        mouse.y = mouseV3.y;
+    }
+    public void StartDrag(TowerController tower)
+    {
+        this.tower = tower;
         Cursor.visible = false;
     }
-    public void StopDragTower()
+    public void StopDrag()
     {
-        if (_tower != null)
-        {
-            _tower.Set = true;
-            _tower = null;
-        }
+        if (SelectShip)
+            SelectShip.TowerSet(tower);
+        else
+            tower.Delete();
+        tower = null;
         Cursor.visible = true;
     }
+    /*
     private void Update()
     {
         if (_tower != null)
@@ -48,5 +76,5 @@ public class MouseDrag : MonoBehaviour
             }
         }
 
-    }
+    }*/
 }

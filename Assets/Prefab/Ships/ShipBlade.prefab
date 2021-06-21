@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5627712936703875507}
   - component: {fileID: 5819302341567669488}
-  - component: {fileID: 4482055396053589286}
+  - component: {fileID: 8340887664954248305}
+  - component: {fileID: 440379218}
   m_Layer: 0
   m_Name: ShipBlade
   m_TagString: Untagged
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4482055396053589286
+--- !u!114 &8340887664954248305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,34 +94,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 1806638366339781777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7869b70c854006e4aa6c2b05752b3216, type: 3}
+  m_Script: {fileID: 11500000, guid: 840b19565a0853a4a86bfaab55e9cfad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cell: {fileID: 8103709918535566230, guid: 3d5745204565ce74e94b76af85b2732b, type: 3}
-  Height: 18
-  Width: 10
+  saveIndex: 0
+  cellPrefab: {fileID: 6697122202078560132, guid: 3d5745204565ce74e94b76af85b2732b, type: 3}
+  height: 18
+  width: 10
   inequality:
-  - xUpper: 5
-    xLower: 4
-    yUpper: 18
-    yLower: 2
-  - xUpper: 6
-    xLower: 3
-    yUpper: 12
-    yLower: 9
-  - xUpper: 8
-    xLower: 7
-    yUpper: 7
-    yLower: 1
-  - xUpper: 9
-    xLower: 9
-    yUpper: 6
-    yLower: 2
-  - xUpper: 2
-    xLower: 1
-    yUpper: 7
-    yLower: 1
-  - xUpper: 0
-    xLower: 0
-    yUpper: 6
-    yLower: 2
+  - Upper: {x: 5, y: 17}
+    Lower: {x: 4, y: 2}
+  - Upper: {x: 6, y: 12}
+    Lower: {x: 3, y: 8}
+  - Upper: {x: 0, y: 6}
+    Lower: {x: 0, y: 2}
+  - Upper: {x: 2, y: 7}
+    Lower: {x: 1, y: 2}
+  - Upper: {x: 9, y: 6}
+    Lower: {x: 9, y: 2}
+  - Upper: {x: 8, y: 7}
+    Lower: {x: 7, y: 2}
+--- !u!61 &440379218
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806638366339781777}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.5, y: 10}
+    newSize: {x: 1.76, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
